@@ -79,7 +79,7 @@ public class BookApiControllerTest {
         String title2 = dc.read("$.[1].title");
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertEquals("제목faf1", title1);
+        assertEquals("제목1", title1);
         assertEquals("제목2", title2);
     }
 
